@@ -1,0 +1,21 @@
+{
+  "name": "available-keychron-ar",
+  "version": "1.0.0",
+  "description": "Obtene una notificacion cuando haya K3 disponibles en KeychronAr",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon /.index.js localhost 8080"
+  },
+  "author": "Ezequiel Cavallo",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "node-html-parser": "^6.1.4",
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
